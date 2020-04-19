@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afc2b38a-025c-42c0-aa08-b41b3402f733" name="Default Changelist" comment="" />
+    <list default="true" id="afc2b38a-025c-42c0-aa08-b41b3402f733" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/producerController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkautils/producer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/registerController.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,30 +20,43 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
   <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1aiPdqV7xmlNRN584Ew3xlM8DVi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafkautils" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\gopath\src\eloizhang\danmu\kafkautils" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="go build eloizhang/danmu" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -64,29 +87,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="373" y="142" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1587219312767" />
-    <state x="499" y="111" key="FileChooserDialogImpl" timestamp="1587279259042">
+    <state x="499" y="111" key="FileChooserDialogImpl" timestamp="1587281166623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="111" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587279259042" />
-    <state width="713" height="125" key="GridCell.Tab.0.bottom" timestamp="1587228339498">
+    <state x="499" y="111" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587281166623" />
+    <state width="1483" height="285" key="GridCell.Tab.0.bottom" timestamp="1587291927091">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="713" height="125" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587228339498" />
-    <state width="713" height="125" key="GridCell.Tab.0.center" timestamp="1587228339498">
+    <state width="1483" height="285" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587291927091" />
+    <state width="1483" height="285" key="GridCell.Tab.0.center" timestamp="1587291927090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="713" height="125" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587228339498" />
-    <state width="713" height="125" key="GridCell.Tab.0.left" timestamp="1587228339498">
+    <state width="1483" height="285" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587291927090" />
+    <state width="1483" height="285" key="GridCell.Tab.0.left" timestamp="1587291927090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="713" height="125" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587228339498" />
-    <state width="713" height="125" key="GridCell.Tab.0.right" timestamp="1587228339498">
+    <state width="1483" height="285" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587291927090" />
+    <state width="1483" height="285" key="GridCell.Tab.0.right" timestamp="1587291927091">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="713" height="125" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587228339498" />
+    <state width="1483" height="285" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587291927091" />
+    <state x="529" y="70" key="RollbackChangesDialog" timestamp="1587280592220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="529" y="70" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587280592220" />
     <state x="154" y="0" key="SettingsEditor" timestamp="1587219314870">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="154" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587219314870" />
+    <state x="305" y="43" width="926" height="738" key="find.popup" timestamp="1587285877025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="305" y="43" width="926" height="738" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1587285877025" />
   </component>
 </project>
