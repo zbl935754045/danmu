@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afc2b38a-025c-42c0-aa08-b41b3402f733" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="D:\Go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1aiPdqV7xmlNRN584Ew3xlM8DVi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build eloizhang/danmu" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="danmu" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="eloizhang/danmu" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build eloizhang/danmu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <auto-vendoring-mode>false</auto-vendoring-mode>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="373" y="142" key="EditFileWatcherDialog" timestamp="1587219312767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="373" y="142" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1587219312767" />
+    <state x="499" y="111" key="FileChooserDialogImpl" timestamp="1587279259042">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="111" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587279259042" />
+    <state width="713" height="125" key="GridCell.Tab.0.bottom" timestamp="1587228339498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="713" height="125" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587228339498" />
+    <state width="713" height="125" key="GridCell.Tab.0.center" timestamp="1587228339498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="713" height="125" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587228339498" />
+    <state width="713" height="125" key="GridCell.Tab.0.left" timestamp="1587228339498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="713" height="125" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587228339498" />
+    <state width="713" height="125" key="GridCell.Tab.0.right" timestamp="1587228339498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="713" height="125" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587228339498" />
+    <state x="154" y="0" key="SettingsEditor" timestamp="1587219314870">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="154" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587219314870" />
+  </component>
+</project>
