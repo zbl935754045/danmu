@@ -8,5 +8,6 @@ import (
 func InitRouter() *gin.Engine {
 	router := gin.Default()
 	router.GET("/writedanmu", controllers.WriterDanmu)
+	router.POST("/regist", controllers.Regist)
 	return router
 }

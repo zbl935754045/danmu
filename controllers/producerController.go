@@ -7,28 +7,37 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type message struct {
-	RoomId string `json:"room_id"`
-	UserId string `json:"user_id"`
-	Time   string `json:"time"`
-	Msg    string `json:"msg"`
+type request struct {
+	RoomId  string  `json:"room_id"`
+	UserId  string  `json:"user_id"`
+	Time    float64 `json:"time"`
+	Message `json:"msg"`
+}
+
+type Message struct {
+	Color   string `json:"color"`
+	Content string `json:"content"`
+	Speed   string `json:"speed"`
 }
 
 func WriterDanmu(c *gin.Context) {
-	roomId := c.DefaultQuery("roomid", "1")
-	userid := c.DefaultQuery("userid", "2")
-	time := c.DefaultQuery("time", "3")
-	msg := c.DefaultQuery("msg", "4")
+	roomId := c.DefaultQuery("roomid", "房间1")
+	userid := c.DefaultQuery("userid", "zbl935754045")
+	//time := c.DefaultQuery("time", "3")
 
-	messa := message{
+	req := request{
 		RoomId: roomId,
 		UserId: userid,
-		Time:   time,
-		Msg:    msg,
+		Time:   123456,
+		Message: Message{
+			Color:   "323",
+			Content: "dsf",
+			Speed:   "trt",
+		},
 	}
 
 	// 将结构体解析为字符串
-	str, err := json.Marshal(messa)
+	str, err := json.Marshal(req)
 	if err != nil {
 		fmt.Printf("err:%v", err)
 	}
