@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"eloizhang/danmu/kafkautils"
+	"eloizhang/danmu/utils"
 	"encoding/json"
 	"fmt"
 	"github.com/gin-gonic/gin"
@@ -44,11 +44,11 @@ func WriterDanmu(c *gin.Context) {
 	fmt.Printf("str:%v", string(str))
 
 	// 初始化生产
-	kafka.InitProducer("localhost:9092")
+	utils.InitProducer("localhost:9092")
 	// 关闭
-	defer kafka.Close()
+	defer utils.Close()
 
 	// 发送测试消息
-	kafka.Send("Test", string(str))
+	utils.Send("Test", string(str))
 	fmt.Println("发送成功")
 }
